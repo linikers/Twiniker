@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(202, 255, 202);
+    margin: 0 auto;
+    display: flex;
+}
+.cabecalho {
+    flex-basis: 30%;
+}
