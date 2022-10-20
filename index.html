@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="sttylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Twiniker </title>
 </head>
@@ -19,33 +19,34 @@
             </figure>
 
              <!-- Menu Nav-->
-            <nav class="cabecalho_Nav">
-                <ul>
-                    <li>
+            <nav class="cabecalho_nav">
+
+                <ul class="menu_lista">
+                    <li class="menu_item">
                         <img src="./assets/img/Home.png" alt="home">
                         <a href="#">Página Inicial</a>
                     </li>
-                    <li>
+                    <li class="menu_item">
                         <img src="./assets/img/Hashtag.png" alt="hashtag">
                         <a href="#">Explorar</a>
                     </li>
-                    <li>
+                    <li class="menu_item">
                         <img src="./assets/img/Group.png" alt="mensagens">
                         <a href="#">Mensagens</a>
                     </li>
-                    <li>
+                    <li class="menu_item">
                         <img src="./assets/img/Group (1).png" alt="salvos">
                         <a href="#">Itens Salvos</a>
                     </li>
-                    <li>
+                    <li class="menu_item">
                         <img src="./assets/img/Group (2).png" alt="listas">
                         <a href="#">Listas</a>
                     </li>
-                    <li>
+                    <li class="menu_item">
                         <img src="./assets/img/ProfilePic.png" alt="perfil">
                         <a href="#">Perfil</a>
                     </li>
-                    <li>
+                    <li class="menu_item">
                         <img src="./assets/img/Group (3).png" alt="mais">
                         <a href="#">Mais</a>
                     </li>
@@ -55,37 +56,57 @@
         </header>
 
         <!--Conteudo-->
-        <main>
+        <main class="principal">
             <!--topo conteudo-->
-            <h3>Home</h3>
+            <h3 class="principal_titulo">Home</h3>
 
-            <form>
+            <form action="#" class="principal_form">
                 <textarea name="twitk" placeholder="O que está acontecendo agora?"></textarea>
                 <button type="submit">Tweetar</button>
             </form>
 
             <!--Feed-->
-            <section>
+            <section class="principal_feed">
                 <!--lista noticias-->
-                <ul>
+                <ul class="lista_tweets">
                     <!--noticia-->
-                    <li>
-                        <img src="./assets/img/ProfilePic (1).png" alt="usuario1">
+                    <li class="tweet">
+                        <img class="tweet_fotoPerfil" src="./assets/img/ProfilePic (1).png" alt="usuario1">
 
-                        <div>
-                            <h2>Carlinhos do posto</h2>
+                        <div class="tweet_conteudo">
+                            <h2>CarlinhosDoPost</h2>
                             <span>@carlinhosChocolate</span>
-                            <p>Hoje o Brasil acordou chuvoso e estamos em outubro</p>
+                            <p>Hoje o Brasil acordou chuvoso novamente e estamos em outubro</p>
                         </div>
                     </li>
                     <!--outra noticia-->
-                    <li>
-                        <img src="./assets/img/ProfilePic (1).png" alt="usuario1">
+                    <li class="tweet">
+                        <img class="tweet_fotoPerfil" src="./assets/img/ProfilePic (1).png" alt="usuario1">
 
-                        <div>
-                            <h2>Carlinhos do posto</h2>
+                        <div class="tweet_conteudo">
+                            <h2>CarlinhosDoPost</h2>
                             <span>@carlinhosChocolate</span>
-                            <p>Hoje o Brasil acordou chuvoso e estamos em outubro</p>
+                            <p>Hoje o Brasil acordou chuvoso novamente e estamos em outubro</p>
+                        </div>
+                    </li>
+                    <!--outra noticia-->
+                    <li class="tweet">
+                        <img class="tweet_fotoPerfil" src="./assets/img/ProfilePic (1).png" alt="usuario1">
+
+                        <div class="tweet_conteudo">
+                            <h2>CarlinhosDoPost</h2>
+                            <span>@carlinhosChocolate</span>
+                            <p>Hoje o Brasil acordou chuvoso novamente e estamos em outubro</p>
+                        </div>
+                    </li>
+                    <!--outra noticia-->
+                    <li class="tweet">
+                        <img class="tweet_fotoPerfil" src="./assets/img/ProfilePic (1).png" alt="usuario1">
+
+                        <div class="tweet_conteudo">
+                            <h2>CarlinhosDoPost</h2>
+                            <span>@carlinhosChocolate</span>
+                            <p>Hoje o Brasil acordou chuvoso novamente e estamos em outubro</p>
                         </div>
                     </li>
                 </ul>

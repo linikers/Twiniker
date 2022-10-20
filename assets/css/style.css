@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .container {
     width: 100%;
     background-color: rgb(202, 255, 202);
@@ -10,4 +11,94 @@ body {
 }
 .cabecalho {
     flex-basis: 30%;
+}
+.cabecalho_logo {
+    margin-bottom: 50px;
+}
+.cabecalho_logo img {
+
+}
+.cabecalho_logo figcaption {
+    display: none;
+}
+
+.cabecalho_nav {
+
+}
+.menu_lista {
+    list-style: none;
+}
+.menu_item {
+    margin-bottom: 20px;
+}
+.menu_item img {
+    max-width: 25px;
+}
+.menu_item a {
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+}
+
+/* feed */
+.principal {
+    flex-basis: 70%;
+    border-left: 1px solid rgb(187, 255, 187);
+    border-right: 1px solid rgb(187, 255, 187);
+    
+}
+.principal_titulo {
+    padding: 10px 30px;
+}
+.principal_form {
+    padding: 10px 30px;
+    border-top: 1px solid rgb(187, 255, 187)
+    border-bottom: 10px solid rgb(187, 255, 187);
+    text-align: right;
+}
+.principal_form textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 50px;
+}
+.principal_form button {
+    background-color: #1da1f2;
+    margin: 15px;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+.principal_feed {
+
+}
+.lista_tweets {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+.tweet {
+    padding: 20px 30px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(187, 255, 187);
+}
+.tweet_fotoPerfil {
+    
+}
+.tweet_conteudo {
+    margin-left: 10px;
+}
+.tweet_conteudo h2 {
+    display: inline-block;
+}
+.tweet_conteudo span {
+    display: inline-block;
+    color: #828282;
+}
+.tweet_conteudo p {
+    margin-top: 10px;
+    color: #333333;
 }
