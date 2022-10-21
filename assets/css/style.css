@@ -39,7 +39,18 @@ body {
     font-size: 22px;
     vertical-align: top;
 }
-
+.menu_item button {
+    background-color: #1da1f2;
+    margin: 15px;
+    border: none;
+    padding: 12px 65px;
+    color: #fff;
+    border-radius: 20px;
+}
+.menu_item button:hover {
+    background-color: #1480c4;
+    font-weight: bold;
+}
 /* feed */
 .principal {
     flex-basis: 70%;
@@ -71,6 +82,11 @@ body {
     padding: 8px 20px;
     color: #fff;
     border-radius: 20px;
+}
+.principal_form button:hover {
+    background-color: #1480c4;
+    font-weight: bold;
+    transition-duration: 0.5s;
 }
 .principal_feed {
 
