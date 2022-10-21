@@ -43,13 +43,14 @@ body {
     background-color: #1da1f2;
     margin: 15px;
     border: none;
-    padding: 12px 65px;
+    padding: 10px 65px;
     color: #fff;
     border-radius: 20px;
 }
 .menu_item button:hover {
     background-color: #1480c4;
     font-weight: bold;
+    transition-duration: 0.5s;
 }
 /* feed */
 .principal {
