@@ -30,6 +30,18 @@ body {
 }
 .menu_item {
     margin-bottom: 20px;
+    padding: 1vh;
+}
+.menu_item2 {
+    margin-bottom: 20px;
+    padding: 1vh;
+}
+
+.menu_item:hover {
+    background-color: rgba(231, 231, 231, 0.76);
+    padding: 1vh;
+
+    border-radius: 65px;
 }
 .menu_item img {
     max-width: 25px;
@@ -39,7 +51,7 @@ body {
     font-size: 22px;
     vertical-align: top;
 }
-.menu_item button {
+.menu_item2 button {
     background-color: #1da1f2;
     margin: 15px;
     border: none;
@@ -47,7 +59,7 @@ body {
     color: #fff;
     border-radius: 20px;
 }
-.menu_item button:hover {
+.menu_item2 button:hover {
     background-color: #1480c4;
     font-weight: bold;
     transition-duration: 0.5s;
@@ -64,7 +76,7 @@ body {
 }
 .principal_form {
     padding: 10px 30px;
-    border-top: 1px solid rgb(187, 255, 187)
+    border-top: 1px solid rgb(187, 255, 187);
     border-bottom: 10px solid rgb(187, 255, 187);
     text-align: right;
 }
